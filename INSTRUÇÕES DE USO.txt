@@ -9,3 +9,9 @@ flutter create meu_app_a
 dentro da pasta meu_app_a irá aparecer uma pasta com o nome lib
 
 arrastar o arquivo main.dart para a pasta lib
+
+🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲🎲
+
+
+site para achar imagens grátis
+copiar o endereço da imagem selecionada!
