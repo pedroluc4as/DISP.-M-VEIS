@@ -1,0 +1,11 @@
+faça o download do arquivo
+
+main.dart
+
+no vs code abra o terminal (ctrl+J) logo após =>
+=> cd desktop
+flutter create meu_app_a
+
+dentro da pasta meu_app_a irá aparecer uma pasta com o nome lib
+
+arrastar o arquivo main.dart para a pasta lib
