@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:meuapp/status.dart';
 
 import 'conversas.dart';
+import 'chamadas.dart';
+import 'status.dart';
 
 class PaginaInicial extends StatelessWidget {
   const PaginaInicial({super.key});
@@ -35,7 +38,13 @@ class PaginaInicial extends StatelessWidget {
           ],
           backgroundColor: Color.fromARGB(255, 1, 219, 48),
         ),
-        body: Conversas(),
+        body: TabBarView(
+          children: [
+            Conversas(),
+            Status(),
+            Chamadas(),
+          ],
+        ),
       ),
     );
   }

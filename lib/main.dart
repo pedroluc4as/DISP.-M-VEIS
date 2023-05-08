@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, duplicate_ignore
 
 import 'package:flutter/material.dart';
-import 'package:meu_app_a/pagina_inicial.dart';
+import 'pagina_inicial.dart';
 
 void main() {
   runApp(MeuApp());
