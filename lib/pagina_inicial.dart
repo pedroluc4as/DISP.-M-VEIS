@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:meuapp/status.dart';
 
 import 'conversas.dart';
 import 'chamadas.dart';
@@ -36,7 +35,7 @@ class PaginaInicial extends StatelessWidget {
               icon: Icon(Icons.more_vert),
             )
           ],
-          backgroundColor: Color.fromARGB(255, 1, 219, 48),
+          backgroundColor: Color.fromARGB(255, 56, 127, 107),
         ),
         body: TabBarView(
           children: [
