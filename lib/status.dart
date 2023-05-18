@@ -21,6 +21,7 @@ class Status extends StatelessWidget {
           title: Text("Recent Updates"),
         ),
         ListTile(
+          onTap: () {},
           title: Row(
             // ignore: prefer_const_literals_to_create_immutables
             children: [
@@ -37,14 +38,17 @@ class Status extends StatelessWidget {
             ],
           ),
           leading: CircleAvatar(
+            radius: 25,
             backgroundImage: NetworkImage(
                 "https://cdn-icons-png.flaticon.com/512/124/124034.png?w=360"),
           ),
         ),
         ListTile(
-          title: Text("Meu Bem"),
+          onTap: () {},
+          title: Text("Meu Bem 💫 💜"),
           subtitle: Text("Today, 13:17 pm"),
           leading: CircleAvatar(
+            radius: 25,
             backgroundImage: NetworkImage(
                 "https://images.unsplash.com/photo-1508710285745-edc8137d6b5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"),
           ),

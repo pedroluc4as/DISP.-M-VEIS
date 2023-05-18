@@ -22,6 +22,7 @@ class Chamadas extends StatelessWidget {
           title: Text("Recent"),
         ),
         ListTile(
+          onTap: () {},
           title: Text("Meu Bem  💫 💜"),
           subtitle: Row(children: [
             Icon(
@@ -40,6 +41,7 @@ class Chamadas extends StatelessWidget {
           ),
         ),
         ListTile(
+          onTap: () {},
           title: Text("Meu Bem  💫 💜"),
           subtitle: Row(children: [
             Icon(
