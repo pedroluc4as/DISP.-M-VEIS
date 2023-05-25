@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
+
 import 'package:flutter/material.dart';
 
 import 'conversas.dart';
@@ -14,7 +16,9 @@ class PaginaInicial extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           title: Text("WhatsApp"),
+          // ignore: prefer_const_constructors
           bottom: TabBar(
+            // ignore: prefer_const_literals_to_create_immutables
             tabs: [
               Tab(text: "Chats"),
               Tab(text: "Status"),
@@ -31,12 +35,15 @@ class PaginaInicial extends StatelessWidget {
               icon: Icon(Icons.search),
             ),
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/config');
+              },
               icon: Icon(Icons.more_vert),
             )
           ],
           backgroundColor: Color.fromARGB(255, 56, 127, 107),
         ),
+        // ignore: prefer_const_constructors
         body: TabBarView(
           children: [
             Conversas(),

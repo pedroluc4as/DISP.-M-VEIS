@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'pagina_inicial.dart';
+import 'configuracoes.dart';
 
 void main() {
   runApp(MeuApp());
@@ -15,7 +16,10 @@ class MeuApp extends StatelessWidget {
     // ignore: prefer_const_constructors
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PaginaInicial(),
+      routes: {
+        '/': (context) => PaginaInicial(),
+        '/config': (context) => Configuracoes(),
+      },
     );
   }
 }
